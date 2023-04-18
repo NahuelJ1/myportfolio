@@ -46,7 +46,7 @@ const myProject = [{
   description: 'This project is a clone of Lofi.co that allows users to create a custom environment for productive work with interactive scenes, music and powerful tools.',
   technologies: ['React', 'Redux', 'Firebase', 'SASS'],
   source: 'https://github.com/NahuelJ1/Customizable-lofi-app',
-  image: 'img/bdsconference.PNG',
+  image: 'img/bdsconference.png',
   'live version': 'https://customizable-lofi-app.vercel.app',
 }, {
   id: 1,
@@ -54,7 +54,7 @@ const myProject = [{
   description: 'Movie discovery and research web app. Users can search for their favourite movies, browse throughout multiple genres, and get cast/crew info and ratings. Making it an ideal platform for movie enthusiasts.',
   technologies: ['Vite', 'Axios', 'SASS', 'React'],
   source: 'https://github.com/NahuelJ1/rating-app-movies',
-  image: 'img/GymFit.PNG',
+  image: 'img/GymFit.png',
   'live version': 'https://appmoviex.vercel.app/',
 }, {
   id: 2,
