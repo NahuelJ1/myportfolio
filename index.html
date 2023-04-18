@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f0518f2c15.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/icon.jpg">
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nahuel Gomez Portfolio</title>
+</head>
+<body>
+  <header class="container header">
+    <h3><a href="#">Welcome</a></h3>
+    <nav>
+      <div class="menu flex">
+        <span id="openmenu"><i class="fa-solid fa-bars"></i></span>
+        <span id="closemenu" class="remove"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+      </div>
+      <ul class="mynav nav-links flex stretch hide">
+        <li><a href="#work-section">Portfolio</a></li>     
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content" class="column-grid">
+    <div class="menu-bg remove"><hr class="hr-dark"></div>
+    <section id="profile">
+      <div class="about container flex-column">
+        <h1>Hey there. I'm Nahuel Gomez <br><span id="h1-inner-text">I am a Full-Stack developer</span></h1>
+        <p class="p-lg">I'm a creative developer who loves to work on appealing websites with a passion for User Interfaces and Experience. I love spending my time coding, creating things for the web and learning new things. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies. <strong>Strong</strong> skills include React, NodeJS, NextJS, PHP, and MongoDB!</p>
+        <ul class="social-media flex">
+          <li>
+            <a href="https://www.linkedin.com/in/nahuelgomezok/" target="_blank">
+              <img src="img/Linkedin-icon.png" alt="linkedin">
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@laginfertz" target="_blank">
+              <img src="img/medium.png" class="mediumimg" alt="medium">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/NahuelJ1" target="_blank">
+              <img src="img/github.png" alt="github">
+            </a>
+          </li>
+        </ul>
+        <ul class="social-media-dsk">
+          <li>
+            <a href="https://github.com/NahuelJ1" target="_blank">
+              <img src="img/github.png" alt="github">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/nahuelgomezok/" target="_blank">
+              <img src="img/Linkedin-icon.png" alt="linkedin">
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@laginfertz" target="_blank">
+              <img src="img/medium.png" class="mediumimg" alt="medium">
+            </a>
+          </li>
+        </ul>
+        <div id="img-icon"><a href="#work-section"><img src="img/Disabled.png" alt="icon-down"></a></div>
+      </div>
+    </section>
+    <section id="work-section" class="column-grid">
+      <h2 class="col-span">My Recent Works</h2>
+      <hr class="hr hr-green">
+      <div class="container-grid">
+        <div class="project-list container flex-column">
+          <img src="img/bdsconference.png" alt="project-1">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Customizable Lofi Website</h3>
+            <p class="p-sm">This project is a clone of Lofi.co that allows users to create a custom environment for productive work with interactive scenes, music and powerful tools.</p>
+            <ul class="flex">
+              <li class="li-padding bg-ash">React</li>
+              <li class="li-padding bg-ash">Redux</li>
+              <li class="li-padding bg-ash">Firebase</li>
+              <li class="li-padding bg-ash">SASS</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="0">See Project</button>
+          </div>
+        </div>
+        <div class="project-list container flex-column">
+          <img src="img/GymFit.png" alt="project-2">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Rating App Movies</h3>
+            <p class="p-sm">Movie discovery and research web app. Users can search for their favourite movies, browse throughout multiple genres, and get cast/crew info and ratings.
+              Making it an ideal platform for movie enthusiasts.
+            </p>
+            <ul class="flex">
+              <li class="li-padding bg-ash">Vite</li>
+              <li class="li-padding bg-ash">Axios</li>
+              <li class="li-padding bg-ash">React</li>
+              <li class="li-padding bg-ash">SASS</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="1">See Project</button>
+          </div>
+        </div>
+        <div class="project-list container flex-column ">
+          <img src="img/covid.PNG" alt="project-3">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Ecommerce with Paypal Payments</h3>
+            <P class="p-sm">This ecommerce app is built with Sanity CMS and NextJS, and features secure 
+              payment processing
+               through Paypal, making it a reliable platform for online shopping with an intuitive user experience.
+            </P>
+            <ul class="flex">
+              <li class="li-padding bg-ash">NextJS</li>
+              <li class="li-padding bg-ash">Sanity</li>
+              <li class="li-padding bg-ash">NodeJS</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="2">See Project</button>
+          </div>
+        </div>
+        <div class="project-list container flex-column ">
+          <img src="img/math-magicains.PNG" alt="project-2">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Covid Statistics</h3>
+            <p class="p-sm">Covid Statistics is a web application to present the numerical data about corona virus pandemic,
+               fetching the data from an API.
+            </p>
+            <ul class="flex">
+              <li class="li-padding bg-ash">Redux</li>
+              <li class="li-padding bg-ash">Bootstrap</li>
+              <li class="li-padding bg-ash">JavaScript</li>
+              <li class="li-padding bg-ash">ES6 Modules</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="3">See Project</button>
+          </div>
+        </div>
+        <div class="project-list container flex-column ">
+          <img src="img/awesome-list.PNG" alt="project-3">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Finance Dashboard Overview</h3>
+            <p class="p-sm">A financial dashboard that includes the United States Interest Rate, 
+              as well as price fluctuations in financial markets, Currencies, Metals and Cryptocurrencies.</p>
+            <ul class="flex">
+              <li class="li-padding bg-ash">XML</li>
+              <li class="li-padding bg-ash">CSS</li>
+              <li class="li-padding bg-ash">HTML</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="4">See Project</button>
+          </div>
+        </div>
+        <div class="project-list container flex-column ">
+          <img src="img/bookstore1.PNG" alt="project-4">
+          <div class="project-about flex-column">
+            <h3 class="font-md">Calculator BMR</h3>
+            <p class="p-sm">Calculate your daily calorie needs using BMR method with HTML, CSS, and Javascript,
+               including validations.
+               Get an accurate estimate of the calories required for maintaining, losing or gaining weight.
+            </p>
+            <ul class="flex">
+              <li class="li-padding bg-ash">HTML</li>
+              <li class="li-padding bg-ash">CSS</li>
+              <li class="li-padding bg-ash">Javascript</li>
+            </ul>
+            <button type="button" class="btn-bg-green action-btn" id="5">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-section" class="flex-column">
+      <div class="div">
+        <div id="my-info" class="abt-me container">
+          <h2>About me</h2>
+          <p class="p-lg">In my free time, I enjoy learning about finance and investing in the market,
+             reading philosophy books, practicing boxing, learning new languages, and also blogging about programming.
+             If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <a href ="./resume.pdf" attributes-list download ="Resume Nahuel">
+              <button type="button" class="btn-bg-green"><i class="fa-sharp fa-solid fa-download"></i> Get My Resume</button>
+            </a>
+        </div>
+      </div>
+      <ul class="flex-column container">
+        <li class="about-card">
+          <img src="img/icon-languages.png" alt="icon-frameworks">
+          <h3 class="font-md">Languages</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light">JavaScript</li>
+            <li class="li-padding bg-light">PHP</li>
+            <li class="li-padding bg-light">HTML</li>
+            <li class="li-padding bg-light">CSS</li>
+            <li class="li-padding bg-light">Python</li>
+          </ul>
+        </li>
+        <li class="about-card">
+          <img src="img/icon-frameworks.png" alt="icon-frameworks">
+          <h3 class="font-md">Frameworks</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light ">React & Node Js</li>
+            <li class="li-padding bg-light ">Laravel</li>
+            <li class="li-padding bg-light ">Skeleton</li>
+            <li class="li-padding bg-light ">Bootstrap</li>
+            <li class="li-padding bg-light ">Django</li>
+          </ul>
+        </li>
+        <li class="about-card">
+          <img src="img/icon-skills.png" alt="icon-frameworks">
+          <h3 class="font-md">Skills</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light ">Relational databases</li>
+            <li class="li-padding bg-light ">Websockets</li>
+            <li class="li-padding bg-light ">Version control systems</li>
+            <li class="li-padding bg-light ">Functional testing</li>
+            <li class="li-padding bg-light ">Pair-programming</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="contact-me">
+      <div class="container flex-column">
+        <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <form action="https://formspree.io/f/mnqylnqk" method="post" class="flex-column stretch">
+          <input name="name" id="name" type="text" minlength="3" maxlength="30" placeholder="Full name" class="stretch" required>
+          <input type="email" id="mail" name="email" placeholder="Email address" class="stretch" required>
+          <textarea name="message" id="msg" maxlength="500" rows="5" class="stretch" placeholder="Enter your message" required></textarea>
+          <small id="message"></small>
+          <button type="submit" class="btn-bg-green">Get in touch</button>
+        </form>
+        <ul class="social-media flex">
+          <li>
+            <a href="https://www.linkedin.com/in/nahuelgomezok/" target="_blank">
+              <img src="img/Linkedin-icon.png" alt="linkedin">
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@laginfertz" target="_blank">
+              <img src="img/medium.png" alt="medium">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/NahuelJ1" target="_blank">
+              <img src="img/github.png" alt="github">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="flex-column">
+    <ul class="social-media-dsk">
+      <li>
+        <a href="https://github.com/NahuelJ1" target="_blank">
+          <img src="img/github.png" alt="github">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/nahuelgomezok/" target="_blank">
+          <img src="img/Linkedin-icon.png" alt="linkedin">
+        </a>
+      </li>
+      <li>
+        <a href="https://medium.com/@laginfertz" target="_blank">
+          <img src="img/medium.png" alt="medium">
+        </a>
+      </li>
+    </ul>
+    <a class="email-link" href="https://outlook.live.com/owa/" target="_blank">draguensy@outlook.com</a>
+    <hr class="hr hr-dark">
+  </footer>
+  <script src="javascript/swiper-bundle.min.js"></script>
+  <script src="javascript/index.js"></script>
+</body>
+</html>
