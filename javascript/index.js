@@ -43,7 +43,7 @@ for (let i = 0; i < lis.length; i += 1) {
 const myProject = [{
   id: 0,
   name: 'Customizable Lofi Website',
-  description: 'This project is a clone of Lofi.co that allows users to create a custom environment for productive work with interactive scenes, music and powerful tools.',
+  description: 'This project is a clone of Lofi.co that allows users to create a custom environment for productive work with interactive scenes, music and powerful tools. NOTICE: the app is designed to be used on desktop. The mobile design may affect the user experience.',
   technologies: ['React', 'Redux', 'Firebase', 'SASS'],
   source: 'https://github.com/NahuelJ1/Customizable-lofi-app',
   image: 'img/bdsconference.png',
