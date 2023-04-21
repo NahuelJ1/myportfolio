@@ -42,15 +42,15 @@ for (let i = 0; i < lis.length; i += 1) {
 // mobile
 const myProject = [{
   id: 0,
-  name: 'Customizable Lofi Website',
-  description: 'This project is a clone of Lofi.co that allows users to create a custom environment for productive work with interactive scenes, music and powerful tools. NOTICE: the app is designed to be used on desktop. The mobile design may affect the user experience.',
-  technologies: ['React', 'Redux', 'Firebase', 'SASS'],
-  source: 'https://github.com/NahuelJ1/Customizable-lofi-app',
-  image: 'img/bdsconference.png',
-  'live version': 'https://customizable-lofi-app.vercel.app',
+  name: 'Phrase Builder',
+  description: 'An aleatory random phrase builder app built with HTML5 and Javascript.',
+  technologies: ['HTML5', 'JQuery', 'JavaScript', 'SASS'],
+  source: 'https://github.com/NahuelJ1/phrase-builder',
+  image: 'img/desktop-preview.png',
+  'live version': 'https://phrase-builder.vercel.app/',
 }, {
   id: 1,
-  name: 'Rating App Movies',
+  name: 'Rating Movies App',
   description: 'Movie discovery and research web app. Users can search for their favourite movies, browse throughout multiple genres, and get cast/crew info and ratings. Making it an ideal platform for movie enthusiasts.',
   technologies: ['Vite', 'Axios', 'SASS', 'React'],
   source: 'https://github.com/NahuelJ1/rating-app-movies',
@@ -82,12 +82,12 @@ const myProject = [{
   'live version': 'https://finance-dashboard-rho.vercel.app/',
 }, {
   id: 5,
-  name: 'Calculator BMR',
-  description: 'Calculate your daily calorie needs using BMR method with HTML, CSS, and Javascript, including validations. Get an accurate estimate of the calories required for maintaining, losing or gaining weight.',
-  technologies: ['HTML', 'CSS', 'Javascript'],
-  source: 'https://github.com/NahuelJ1/bmr-calculator',
-  image: './img/bookstore1.PNG',
-  'live version': 'https://bmr-calculator-rho.vercel.app/',
+  name: 'Customizable Lofi Website',
+  description: 'This project is a clone of Lofi.co that allows users to create a customized environment for productive work with interactive scenes, music and powerful tools. NOTICE: the application is designed exclusively for use on desktop computers. Use on mobile devices may affect the user experience',
+  technologies: ['React', 'Redux', 'Firebase', 'SASS'],
+  source: 'https://github.com/NahuelJ1/Customizable-lofi-app',
+  image: 'img/bdsconference.png',
+  'live version': 'https://customizable-lofi-app.vercel.app',
 }];
 
 function createPopup(idx, prop) {
